@@ -2,8 +2,8 @@
 Minimum Variance Portfolio
 
 ## 概要
-Excelの選択範囲のテキストを全角から半角または半角から半角に変換します。  
-PERSONAL.XLSBに保存して動作させることを想定しています。  
+Excel上で株価データから最小分散フロンティアを作図します。  
+ExcelのSolverアドインを使用します。
 
 <img src="images/image_01.png" alt="フォームイメージ" width="300">
 <img src="images/image_02.png" alt="グラフメージ" width="600">
@@ -12,9 +12,9 @@ PERSONAL.XLSBに保存して動作させることを想定しています。
 Microsoft Excel上で動作します。  
 
 ## インストール方法
-1. Contentsフォルダ内の frmZenkakuHankaku.frm、frmZenkakuHankaku.frx、全角半角変換.bas を任意の同一フォルダに保存
-2. Excelで新規WorkSheetを開く
-3. 開発タブのVisual BasicまたはAlt+F11でVBE(Visual Basic Editor)を開く
+1. Contentsフォルダ内の frmMVP.frm、frmMVP.frx を任意の同一フォルダに保存
+2. 任意のExcelBookをマクロ有効ブック(.xlsm)として保存
+3. [ファイル]>[オプション]>[アドイン]>[設定]でソルバー アドインにチェックを入れて[OK]またはEnter
 4. VBAProject一覧から VBAProject (PERSONAL.XLSB) を選択し右クリック
 5. ファイルのインポートで保存した frmZenkakuHankaku.frm を開く
 6. 加えてファイルのインポートで保存した 全角半角変換.bas を開く
