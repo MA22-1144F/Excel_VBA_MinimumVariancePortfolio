@@ -5,7 +5,8 @@ Minimum Variance Portfolio
 Excelの選択範囲のテキストを全角から半角または半角から半角に変換します。  
 PERSONAL.XLSBに保存して動作させることを想定しています。  
 
-<img src="image_zenhancon.png" alt="イメージ画面" width="600">
+<img src="images/image_01.png" alt="フォームイメージ" width="600">
+<img src="images/image_02.png" alt="グラフメージ" width="600">
 
 ## 動作環境
 Microsoft Excel上で動作します。  
